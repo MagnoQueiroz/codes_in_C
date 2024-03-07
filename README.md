@@ -9,6 +9,6 @@
 <hr>
 <p>Alguns arquivos estão com a biblioteca math.h, e a extensão vscode acaba nao reconhecendo. Então use este comando para compilar manualmente pelo terminal:</p>
 
-<div style="text-align:center">
+<div align="center">
 <code><span style="color:#ff00bf">gcc</span> <span style="color:#00fd3b">-o</span> nome_novo nome_aquivo.c <span style="color:#00fd3b">-lm</span></code>
 </div>
