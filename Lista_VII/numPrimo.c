@@ -8,18 +8,8 @@ int main()
     {
         printf("Digite o 1º numero: ");
         scanf("%d", &x);
-
-        do
-        {
-            printf("Digite o 2º numero: ");
-            scanf("%d", &y);
-
-            if (y == 0)
-            {
-                printf("Y não pode ser zero. Digite um numero valido\n");
-            }
-
-        } while (y == 0);
+        printf("Digite o 2º numero: ");
+        scanf("%d", &y);
 
         if (x > y)
         {
