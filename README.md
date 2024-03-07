@@ -13,6 +13,4 @@
 ~~~
     ggc -o nome_novoArquivo nome_arquivo.c -lm
 ~~~
-<div align="center">
 
-</div>
