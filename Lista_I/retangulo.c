@@ -10,9 +10,12 @@ int main()
 
     area = baseRe * altRe;
 
-    //perimetro = soma dos quatro lados
+    // perímetro = soma dos quatro lados
     peri = ((baseRe * 2)) + (altRe* 2);
-
+    /*
+        calculo de diagonal usasse teorema de Pitágoras:
+        d2 = b2 + h2 ou d = raiz quadrada de reto b ao quadrado mais reto h ao quadrado fim da raiz[sqrt(pow(baseRe,2) + pow(altRe,2))]
+     */
     diago = (pow(baseRe, 2)) + (pow(altRe, 2));
     diago = sqrt(diago);
 
