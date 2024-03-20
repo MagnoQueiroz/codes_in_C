@@ -17,6 +17,6 @@ int main() {
 }
 
 float circo(float x) {
-    float circoferencia = PI * (x * x);
-    return(circoferencia);
+    float circonferencia = PI * (x * x);
+    return(circonferencia);
 }
