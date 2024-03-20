@@ -5,6 +5,7 @@ void positiveOrNot(int num);
 
 int main()
 {
+    setlocale(LC_ALL, "portuguese");
     int num;
     printf("Digite um numero:");
     scanf("%d", &num);
