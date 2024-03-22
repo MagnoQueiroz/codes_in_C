@@ -12,7 +12,7 @@ int main()
     scanf("%f", &n2);
     printf("Digite 3º media: ");
     scanf("%f", &n3);
-
+    printf("medias e conceito abaixo:\n");
     conceito(media(n1, n2, n3));
 
     return (0);
@@ -29,22 +29,22 @@ void conceito(float media)
 {
     if (media >= 9)
     {
-        printf("CONCEITO A");
+        printf("MEDIA: %.2f\nCONCEITO: A\n", media);
     }
     else if (media >= 7 && media < 9)
     {
-        printf("CONCEITO B");
+        printf("MEDIA: %.2f\nCONCEITO: B\n", media);
     }
     else if (media >= 6 && media < 7)
     {
-        printf("CONCEITO C");
+        printf("MEDIA: %.2f\nCONCEITO: C\n", media);
     }
     else if (media >= 4 && media < 6)
     {
-        printf("CONCEITO D");
+        printf("MEDIA: %.2f\nCONCEITO: D\n", media);
     }
     else
     {
-        printf("CONCEITO E");
+        printf("MEDIA: %.2f\nCONCEITO: E\n", media);
     }
 }
