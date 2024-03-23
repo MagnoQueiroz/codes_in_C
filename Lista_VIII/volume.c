@@ -3,8 +3,7 @@
 
 float volume(float lag, float comp, float alt);
 
-int main()
-{
+int main(){
     float lag, comp, alt, ret;
     printf("digite a largura, comprimento e altura: ");
     scanf("%f %f %f", &lag, &comp, &alt);
@@ -17,7 +16,7 @@ int main()
 }
 
 float volume(float lag, float comp, float alt) {
-   float resultado = lag * comp* alt;
+    float resultado = lag * comp* alt;
 
-   return(resultado);
+    return(resultado);
 }
