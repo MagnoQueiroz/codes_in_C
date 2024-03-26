@@ -5,12 +5,11 @@ int main() {
     setlocale(LC_ALL, "portuguese");
     int v[8];
     int i;
-    for(i = 0; i< 8; i++) {
+    for(i = 0; i<=(8-1); i++) {
         printf("Digite um numero: ");
-        scanf("%d", &v[i]);
-
+        scanf("%d",&v[i]);
     }
-    for(i= 7; i>=0; i--) {
+    for(i=(8-1); i>=0; i--) {
         printf("%dº número: %d\n",(i+1), v[i]);
     }
 

@@ -15,7 +15,6 @@ int main() {
     }
     else {
         printf("0 is neutral \n");
-
     }
 
     return (0);
