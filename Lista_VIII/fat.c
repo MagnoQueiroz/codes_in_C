@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ocale.h>
+#include <locale.h>
 
 int fat(int num);
 
