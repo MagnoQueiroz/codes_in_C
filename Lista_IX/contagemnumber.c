@@ -10,8 +10,8 @@ int main(){
         scanf("%d", &v[i]);
 
     }
-    for(i=0; i<5; i++) {
-        result = result + i;
+    for(i=0; i<=5; i++) {
+        result = result + v[i];
     }
     printf("O Resultado da soma do dados é: %d", result);
     return(0);
