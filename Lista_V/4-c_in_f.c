@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//4 e 6 em um só script
+
 int main() {
     float c, f;
     int chose;
