@@ -4,10 +4,10 @@ int main() {
     int cont;
 
     for (cont = 10; cont <= 50; cont++) {
-        if(cont%2==0) {
-            printf("Div por 2: %d\n",cont);
+        if (cont % 2 == 0) {
+            printf("Divisível por 2: %d\n", cont);
         }
     }
 
-    return(0);
+    return (0);
 }
