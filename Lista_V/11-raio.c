@@ -2,7 +2,7 @@
 #define PI 3.14
 int main() {
     float areaCirco, raio;
-    printf("Digite o valor do raio para calcular a circunferência");
+    printf("Digite o valor do raio para calcular a circunferência: ");
     scanf("%f", &raio);
     areaCirco = PI * (raio * raio);
 
