@@ -1,6 +1,7 @@
 #include <stdio.h>
-
+#include <locale.h>
 int main() {
+    setlocale(LC_ALL, "Portuguese");
     int A[4][2], B[4][2], x = 1;
     int k;
 

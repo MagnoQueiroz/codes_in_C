@@ -20,7 +20,7 @@ int main() {
         for(int j = 0; j <3; j++) {
             mediaAri = (media[i][0] + media[i][1] + media[i][2])/3;
         }
-        printf("%s tem a media aritmética de %.2f", name[i] ,mediaAri);
+        printf("%s tem a média aritmética de %.2f", name[i] ,mediaAri);
 
         printf("\n");
     }
