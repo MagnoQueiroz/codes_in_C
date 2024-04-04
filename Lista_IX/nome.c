@@ -11,7 +11,7 @@ int main() {
     printf("Seu nome é %s\n", nome);
     for(i = 0; nome[i] != '\0'; i++){
        cont++;
-    };
+    }
     printf("o vetor possui %d caracteres armazenados incluindo o barra zero", cont);
     return(0);
 }

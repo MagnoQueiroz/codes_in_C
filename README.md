@@ -13,4 +13,3 @@
 ~~~
     ggc -o nome_novoArquivo nome_arquivo.c -lm
 ~~~
-

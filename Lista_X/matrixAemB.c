@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main() {
+    int A[4][2], B[4][2], x = 1;
+    int k;
+
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 2; j++) {
+            printf("Digite o %dº número ", x++);
+            scanf("%d", &A[i][j]);
+        }
+    }
+    printf("\n");
+    printf("Matrix A\n");
+    //repetição
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 2; j++) {
+            printf("|");
+
+            printf("  %d  ", A[i][j]);
+        }
+        printf("|\n");
+    }
+    //fim repetição
+    printf("\n");
+    printf("MATRIX B\n");
+    for (int i = 3; i >= 0; i--) {
+        k = 1;
+        for (int j = 1; j >= 0; j--) {
+            B[i][j] = A[i][k];
+            printf("|");
+            printf("  %d  ", B[i][j]);
+            k--;
+        }
+        printf("|\n");
+    }
+    return (0);
+}
