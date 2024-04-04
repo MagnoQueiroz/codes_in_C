@@ -26,12 +26,12 @@ int main() {
     printf("\n");
     printf("MATRIX B\n");
     for (int i = 0; i < 4; i++) {
-        k = 1;
+
         for (int j = 0; j < 2; j++) {
             B[i][j] = A[3-i][1-j];
             printf("|");
             printf("  %d  ", B[i][j]);
-            k--;
+
         }
         printf("|\n");
     }

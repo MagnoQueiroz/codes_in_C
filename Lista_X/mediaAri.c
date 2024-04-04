@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main() {
     // linha coluna
@@ -9,6 +10,7 @@ int main() {
     for (int i =0; i < 5; i++) {
         printf("digite o nome do %dº aluno: ", (i+1));
         fgets(name[i], 30, stdin);
+        name[i][strcspn(name[i], "\n")] = 0;
 
         printf("%s", name[i]);
         for (int j = 0; j < 3; j++) {
