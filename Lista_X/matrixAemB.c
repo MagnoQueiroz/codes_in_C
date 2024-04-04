@@ -25,10 +25,10 @@ int main() {
     //fim repetição
     printf("\n");
     printf("MATRIX B\n");
-    for (int i = 3; i >= 0; i--) {
+    for (int i = 0; i < 4; i++) {
         k = 1;
-        for (int j = 1; j >= 0; j--) {
-            B[i][j] = A[i][k];
+        for (int j = 0; j < 2; j++) {
+            B[i][j] = A[3-i][1-j];
             printf("|");
             printf("  %d  ", B[i][j]);
             k--;

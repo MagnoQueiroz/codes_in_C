@@ -3,8 +3,6 @@
 int main() {
     int  i,j,x, y;
 
-
-
     int z, c = 1;
     printf("Digite a quantidade de linhas: ");
     scanf("%d", &x);
