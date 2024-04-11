@@ -4,8 +4,12 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/695px-C_Programming_Language.svg.png" width="300px"/>
 
 </div>
-
-<p>Este repositório tem como intuito auxiliar para o aprendizado da linguagem C, e algoritmos no geral.</p>
+<br>
+<p>
+Este repositório tem como intuito auxiliar para o aprendizado da linguagem C, e algoritmos no geral.
+Todos os scripts/códigos foram desenvolvidos durante as aulas de lab. Algoritmos.
+Todos os códigos foram feitos por mim com auxílio da professora.
+</p>
 
 ### como funciona:
 <p>Cada diretório está organizado com um pdf e suas respectivas respostam em C. Para quem se interessar apenas pelas quesões, acesse o pdf.
@@ -20,11 +24,11 @@
     ggc -o nome_novoArquivo nome_arquivo.c -lm
 ~~~
 
-## Diretório: 
+## Listas: 
 
 <div align="center">
 
-[📁 Lista V](https://github.com/MagnoQueiroz/codes_in_C/tree/main/Lista_V) |
+| [📁 Lista V](https://github.com/MagnoQueiroz/codes_in_C/tree/main/Lista_V) |
 [📁 Lista VI](https://github.com/MagnoQueiroz/codes_in_C/tree/main/Lista_VI) |
 [📁 Lista VII](https://github.com/MagnoQueiroz/codes_in_C/tree/main/Lista_VII) |
 [📁 Lista VIII](https://github.com/MagnoQueiroz/codes_in_C/tree/main/Lista_VIII) |
