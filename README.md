@@ -1,15 +1,34 @@
 # Listas de exercício em C
 
-<p>Está lista foi feita com o intuito de ajudar no apredizado da linguagem C, tanto quanto no aprendizado de algoritmos em si.</p>
-
 <div align="center">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/695px-C_Programming_Language.svg.png" width="300px"/>
 
 </div>
-<hr>
-<p>Alguns arquivos estão com a biblioteca math.h, e a extensão vscode acaba nao reconhecendo. Então use este comando para compilar manualmente pelo terminal:</p>
 
+<p>Este repositório tem como intuito auxiliar para o aprendizado da linguagem C, e algoritmos no geral.</p>
+
+### como funciona:
+<p>Cada diretório está organizado com um pdf e suas respectivas respostam em C. Para quem se interessar apenas pelas quesões, acesse o pdf.
+</p>
+<hr>
+
+#### OBS: 
+
+<p>Alguns arquivos estão com a biblioteca math.h, e a extensão vscode acaba nao reconhecendo. Então use este comando para compilar manualmente pelo terminal:</p>
 
 ~~~
     ggc -o nome_novoArquivo nome_arquivo.c -lm
 ~~~
+
+## Diretório: 
+
+<div align="center">
+
+[📁 Lista V](https://github.com/MagnoQueiroz/codes_in_C/tree/main/Lista_V) |
+[📁 Lista VI](https://github.com/MagnoQueiroz/codes_in_C/tree/main/Lista_VI) |
+[📁 Lista VII](https://github.com/MagnoQueiroz/codes_in_C/tree/main/Lista_VII) |
+[📁 Lista VIII](https://github.com/MagnoQueiroz/codes_in_C/tree/main/Lista_VIII) |
+[📁 Lista IX](https://github.com/MagnoQueiroz/codes_in_C/tree/main/Lista_IX) |
+[📁 Lista X](https://github.com/MagnoQueiroz/codes_in_C/tree/main/Lista_X) |
+
+</div>
